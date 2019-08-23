@@ -1,0 +1,6 @@
+#Electricity, radio waves and light (glass cables) work together to transfer data throughout the world. Wifi uses routers
+#to pick up info. The wifi allows data to be collected and the router to be passed on to cables. Routers also make sure that 
+#all the packages of info are all being sent. IP addresses make sure the packages go to the correct device. Protocol asks if 
+#website is save to load into and grants permission. DNS addentifies the nature of a website (public, private, etc). A server has
+#all the necessary information stored to log in to websites and pass on info. HTTP and HTML are what mandate the way a website 
+#looks. URL is the unique adress needed to access a website. 

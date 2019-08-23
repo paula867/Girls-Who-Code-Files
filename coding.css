@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+}
+
+center{
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 30px;
+
+  /* color for the header for FRIST */
+}
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0f161c; /* the color for the backround menu*/
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 16px;
+}
+
+.sidenav a {
+  padding: 30px 8px 6px 16px; /*the spacing of the buttons inside nav*/
+  text-decoration: none;
+  font-size: 23px;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: #ffffff; /*sidenav letter color*/
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #324A5F;
+  /* the color for the oving over the words in the menue bar*/
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 10px
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0px 10px; /*letters text position left */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

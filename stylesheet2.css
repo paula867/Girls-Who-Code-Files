@@ -1,0 +1,38 @@
+body {
+ background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini-dark.png);
+}
+
+h1 {
+  color: #ffdc6a;
+}
+h2 {
+  color: #0e0fed;
+}
+h3 {
+  color: 	#94f0f1;
+}
+h3 { font-family: verdana; }
+h3 { font-size: 14px; }
+h2 { font-size: 25px; }
+h1 {font-family: 'Aclonica';}
+
+
+.btn {
+  font
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #ffdc6a;}
+
+.Bio {color: green; border: none;}
+.Socialmedia {color: dodgerblue; border:none;}
+.Interests {color: orange; border: none;}
+.FavoriteYTChannels {color: red; border:none;}
+.Dislikes {color: white; border: none;}
+.Favoriteartists {color: purple; border:none;}

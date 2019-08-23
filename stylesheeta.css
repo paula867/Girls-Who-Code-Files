@@ -1,0 +1,40 @@
+body{
+    background-color: #000000;
+}
+
+h1 {
+  color: #0e0fed;
+}
+h2 {
+  color: #94f0f1;
+}
+.main-nav
+{
+ float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+   display: inline-block; 
+    }
+
+.main-nav li a 
+{
+    color: salmon;
+    text-decoration: none;
+    padding: 5px 20xp;
+    font-family: "roboto", sans-serif;
+    font-size: 15xp;
+    
+    }
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+h1{font-family: verdana;}
+h2{font-family: monaco;}
+h1 {font-size: 30px;}
+h2{font-size: 16px;}

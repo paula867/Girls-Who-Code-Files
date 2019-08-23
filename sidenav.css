@@ -1,0 +1,79 @@
+body{
+  background-color: #000000;
+}
+h1 {
+  color: #EB5E55;
+  font-size:35px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Century Gothic', sans-serif;
+  line-height: 9px;
+   /*this is the problem for the color*/
+  /*Try courier new, georgia, or lucida console if this doesn't look right */
+}
+
+h2 {
+  color: #ffffff;
+  font-size:20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Alegreya';
+
+  /*try verdana, gill sans, or tahoma if this one doesn't look right*/
+}
+
+center{
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 10px;
+  /* color for the header for FRIST */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 16px;
+}
+
+.sidenav a {
+  padding: 30px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0px 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
